@@ -13,7 +13,7 @@ pkg update -y
 pkg upgrade -y
 pkg install python -y
 pkg install git -y
-rm -rf Ddos-Attack
+rm -rf Repo-Deletion
 git clone https://github.com/DARK-NET-403/Repo-Deletion
 cd Repo-Deletion
 ./repo.sh
