@@ -16,6 +16,7 @@ pkg install git -y
 rm -rf Repo-Deletion
 git clone https://github.com/DARK-NET-403/Repo-Deletion
 cd Repo-Deletion
+chmod +x repo.sh
 ./repo.sh
 ````
 #### All Error Was Fixed.If You Find Any Error Contract With Me
