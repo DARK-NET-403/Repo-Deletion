@@ -11,9 +11,8 @@
 termux-setup-storage
 pkg update -y
 pkg upgrade -y
-pkg install bash -y
-pkg install curl -y
-pkg install figlet -y
+pip install requests
+pkg install figlet     
 rm -rf Repo-Deletion
 git clone https://github.com/DARK-NET-403/Repo-Deletion
 cd Repo-Deletion
